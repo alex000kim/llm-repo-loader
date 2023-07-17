@@ -1,6 +1,6 @@
 # llm-repo-loader
 ## Overview
-The `repoloader.sh script takes a directory and dumps the contents of all textual files in the git repository into a plain text file. This text dump can then be used with language learning models. The script can optionally ignore files with certain extensions.
+The `repoloader.sh` script takes a directory and dumps the contents of all textual files in the git repository into a plain text file. This text dump can then be used with language learning models. The script can optionally ignore files with certain extensions.
 ## Usage
     bash repoloader.sh [ignored_extensions] <directory>
 The ignored_extensions argument is optional and should be a comma-separated list of file extensions to ignore (without the dot). If provided, any files with these extensions will be skipped.
