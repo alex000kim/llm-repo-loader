@@ -23,3 +23,4 @@ bash repoloader.sh --include=md,py,txt \--ignore-dirs=scikit-learn-main/benchmar
 
 ```
 
+⚠️ Note: Avoid redirecting the output to a file in the same directory as the repository. This will cause the script to run on the output file as well, resulting in an infinite loop.
